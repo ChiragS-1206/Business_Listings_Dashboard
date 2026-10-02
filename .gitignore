@@ -1,0 +1,22 @@
+# Secrets
+.env
+
+# Python
+.venv/
+__pycache__/
+*.py[oc]
+
+# Node
+node_modules/
+dist/
+
+# Scraper runtime files (browser profile has cookies - never commit)
+scrapper/firefox_profile/
+scrapper/debug_*
+scrapper/gmaps_data.csv
+internship/user_data/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
