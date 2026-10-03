@@ -16,7 +16,7 @@ Requirements: Python 3.14 + [uv](https://docs.astral.sh/uv/), Node 20+, MySQL/Ma
 ### 1. Backend
 
 ```bash
-cd internship
+cd BACKEND
 cp .env.example .env            # Windows: copy .env.example .env   (then set DB_PASSWORD if you have one)
 uv sync
 uv run python load_data.py      # creates business_db.listing_master and loads the CSV
@@ -46,7 +46,7 @@ Open http://localhost:5173.
 ### 3. Re-scraping (optional)
 
 ```bash
-cd internship
+cd BACKEND
 uv run playwright install firefox
 uv run python ../scrapper/scraper.py     # writes scrapper/gmaps_data.csv
 uv run python ../scrapper/cleaning.py    # writes scrapper/full_FINAL_FIXED.csv
