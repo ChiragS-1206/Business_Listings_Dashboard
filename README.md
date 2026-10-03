@@ -4,7 +4,7 @@ Scrape business listings from Google Maps, store them in MySQL, serve them with 
 
 ```
 intern/
-├── internship/   # Backend: FastAPI API + MySQL loader (uv project)
+├── BACKEND/   # Backend: FastAPI API + MySQL loader (uv project)
 ├── FRONTEND/     # React + Vite dashboard
 └── scrapper/     # Playwright scraper + cleaning script + final CSV
 ```
