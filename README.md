@@ -27,7 +27,6 @@ API runs on http://localhost:8000 (docs at `/docs`).
 
 | Endpoint | Returns |
 |---|---|
-| `GET /summary` | totals: listings, cities, categories, with phone |
 | `GET /city-count` | listings per city |
 | `GET /category-count` | listings per category |
 | `GET /source-count` | listings per source |
